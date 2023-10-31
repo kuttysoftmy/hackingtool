@@ -127,7 +127,7 @@ class Saphyra(HackingTool):
     def run(self):
         url = input("Enter url>>> ")
         try:
-            os.system("python saphyra.py " + url)
+            os.system(f"python saphyra.py {url}")
         except Exception:
             print("Enter a valid url.")
 
