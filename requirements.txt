@@ -3,3 +3,4 @@
 # flask is unused — removed
 # requests is unused at runtime — removed
 rich>=13.0.0
+pygments>=2.20.0 # not directly required, pinned by Snyk to avoid a vulnerability
